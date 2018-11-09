@@ -17,7 +17,7 @@
 ###############################################################################
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}"  )" && pwd  )"
-python $DIR/result2pb.py $DIR/../../control/conf/lincoln.pb.txt $1
+python $DIR/result2pb.py $DIR/../../control/conf/lincoln.pb.txt result.csv
 
 echo "Created control conf file: control_conf_pb.txt"
 echo "with updated calibration table"
